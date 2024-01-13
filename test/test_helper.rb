@@ -4,7 +4,10 @@
 ENV["RAILS_ENV"] = "test"
 
 require_relative "../test/dummy/config/environment"
+
 ActiveRecord::Migrator.migrations_paths = [File.expand_path("../test/dummy/db/migrate", __dir__)]
+ActiveRecord::Migration.maintain_test_schema!
+
 require "rails/test_help"
 
 require "minitest/reporters"

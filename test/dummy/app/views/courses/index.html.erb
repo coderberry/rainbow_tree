@@ -1,0 +1,11 @@
+<h1 class="text-2xl font-bold mb-4">Courses</h1>
+
+<%= breadcrumbs [{ text: 'Courses', path: courses_path }] %>
+
+<%= table(
+  columns: %i[title status],
+  collection: @courses,
+  empty_message: 'No courses found',
+  row_class: ->(course) { course.status == 'draft' ? 'bg-yellow-100' : '' },
+  row_link: ->(course) { course_path(course) }
+) %>

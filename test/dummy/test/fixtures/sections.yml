@@ -1,0 +1,81 @@
+# Simple Course ...............................................................
+
+simple_beginner:
+  title: Beginner
+  course: simple
+  position: 0
+
+simple_advanced:
+  title: Advanced
+  course: simple
+  position: 1
+
+# Nested Course ...............................................................
+
+nested_novice:
+  title: Novice
+  course: nested
+  position: 0
+
+nested_expert:
+  title: Expert
+  course: nested
+  position: 1
+
+nested_expert_addendum:
+  title: Addendum
+  course: nested
+  parent: nested_expert
+  position: 0
+
+nested_bonus:
+  title: Bonus
+  course: nested
+  position: 2
+
+# Complex Course ..............................................................
+
+complex_1_mod_1:
+  title: 1st-Level Mod-1
+  course: complex
+  position: 0
+
+complex_1_mod_1_1:
+  title: 2nd-Level Mod-1
+  course: complex
+  parent: complex_1_mod_1
+  position: 0
+
+complex_1_mod_1_1_1:
+  title: 3rd-Level Mod-1
+  course: complex
+  parent: complex_1_mod_1_1
+  position: 0
+
+complex_1_mod_2:
+  title: 1st-Level Mod-2
+  course: complex
+  position: 1
+
+complex_1_mod_2_1:
+  title: 2nd-Level Mod-2
+  course: complex
+  parent: complex_1_mod_2
+  position: 0
+
+complex_1_mod_2_1_1:
+  title: 3rd-Level Mod-2
+  course: complex
+  parent: complex_1_mod_2_1
+  position: 0
+
+complex_1_mod_3:
+  title: 1st-Level Mod-3
+  course: complex
+  position: 2
+
+complex_1_mod_3_1:
+  title: 2nd-Level Mod-3
+  course: complex
+  parent: complex_1_mod_3
+  position: 0

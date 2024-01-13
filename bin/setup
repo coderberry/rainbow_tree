@@ -6,3 +6,7 @@ set -vx
 bundle install
 
 # Do any other automated setup that you need to do here
+
+bundle exec rails app:db:drop app:db:create app:db:migrate app:db:fixtures:load
+
+echo "Setup complete."

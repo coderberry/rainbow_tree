@@ -1,0 +1,9 @@
+<h1 class="text-2xl font-bold mb-4"><%= @course.title %></h1>
+<%= breadcrumbs [
+                  { text: 'Courses', path: courses_path },
+                  { text: @course.title, path: course_path(@course) }
+                ] %>
+
+<div class="flex flex-col space-y-2">
+  <%= render partial: "shared/nested_section", collection: @course.sections.top.sorted, as: :section %>
+</div>

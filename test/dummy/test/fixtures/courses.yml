@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+simple:
+  title: Simple Course
+
+nested:
+  title: Nested Course
+
+complex:
+  title: Complex Course
+
+
+

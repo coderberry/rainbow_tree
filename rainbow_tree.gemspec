@@ -26,7 +26,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 7.0"
   spec.add_dependency "rainbow", ">= 3.0"
 
+  spec.add_development_dependency "activesupport"
   spec.add_development_dependency "awesome_print"
+  spec.add_development_dependency "better_errors"
+  spec.add_development_dependency "binding_of_caller"
   spec.add_development_dependency "debug"
   spec.add_development_dependency "language_server-protocol"
   spec.add_development_dependency "lint_roller"

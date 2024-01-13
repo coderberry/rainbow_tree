@@ -1,0 +1,162 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# Simple Course ...............................................................
+
+simple_beginner_lesson_1:
+  title: Beginner Lesson 1
+  section: simple_beginner
+  position: 0
+
+simple_beginner_lesson_2:
+  title: Beginner Lesson 2
+  section: simple_beginner
+  position: 1
+
+simple_advanced_lesson_1:
+  title: Advanced Lesson 1
+  section: simple_advanced
+  position: 0
+
+simple_advanced_lesson_2:
+  title: Advanced Lesson 2
+  section: simple_advanced
+  position: 1
+
+# Nested Course ...............................................................
+
+nested_novice_lesson_1:
+  title: Novice Lesson 1
+  section: nested_novice
+  position: 0
+
+nested_novice_lesson_2:
+  title: Novice Lesson 2
+  section: nested_novice
+  position: 1
+
+nested_expert_lesson_1:
+  title: Expert Lesson 1
+  section: nested_expert
+  position: 0
+
+nested_expert_lesson_2:
+  title: Expert Lesson 2
+  section: nested_expert
+  position: 1
+
+nested_expert_addendum_lesson_1:
+  title: Addendum Lesson 1
+  section: nested_expert_addendum
+  position: 0
+
+nested_expert_addendum_lesson_2:
+  title: Addendum Lesson 2
+  section: nested_expert_addendum
+  position: 1
+
+nested_bonus_lesson_1:
+  title: Bonus Lesson 1
+  section: nested_bonus
+  position: 0
+
+# Complex Course ..............................................................
+
+complex_1_mod_1_lesson_1:
+  title: Lesson 1
+  section: complex_1_mod_1
+  position: 0
+
+complex_1_mod_1_lesson_2:
+  title: Lesson 2
+  section: complex_1_mod_1
+  position: 1
+
+complex_1_mod_1_lesson_3:
+  title: Lesson 3
+  section: complex_1_mod_1
+  position: 2
+
+complex_1_mod_1_1_lesson_1:
+  title: Lesson 4
+  section: complex_1_mod_1_1
+  position: 0
+
+complex_1_mod_1_1_lesson_2:
+  title: Lesson 5
+  section: complex_1_mod_1_1
+  position: 1
+
+complex_1_mod_1_1_1_lesson_1:
+  title: Lesson 6
+  section: complex_1_mod_1_1_1
+  position: 0
+
+complex_1_mod_1_1_1_lesson_2:
+  title: Lesson 7
+  section: complex_1_mod_1_1_1
+  position: 0
+
+complex_1_mod_1_1_lesson_3:
+  title: Lesson 8
+  section: complex_1_mod_1_1
+  position: 2
+
+complex_1_mod_1_1_lesson_4:
+  title: Lesson 9
+  section: complex_1_mod_1_1
+  position: 3
+
+complex_1_mod_1_1_lesson_5:
+  title: Lesson 10
+  section: complex_1_mod_1_1
+  position: 4
+
+complex_1_mod_1_lesson_4:
+  title: Lesson 11
+  section: complex_1_mod_1
+  position: 3
+
+complex_1_mod_1_lesson_5:
+  title: Lesson 12
+  section: complex_1_mod_1
+  position: 4
+
+complex_1_mod_2_1_1_lesson_1:
+  title: Lesson 13
+  section: complex_1_mod_2_1_1
+  position: 0
+
+complex_1_mod_2_1_1_lesson_2:
+  title: Lesson 14
+  section: complex_1_mod_2_1_1
+  position: 1
+
+complex_1_mod_3_1_lesson_1:
+  title: Lesson 15
+  section: complex_1_mod_3_1
+  position: 0
+
+complex_1_mod_3_1_lesson_2:
+  title: Lesson 16
+  section: complex_1_mod_3_1
+  position: 1
+
+complex_1_mod_3_lesson_1:
+  title: Lesson 17
+  section: complex_1_mod_3
+  position: 0
+
+complex_1_mod_3_lesson_2:
+  title: Lesson 18
+  section: complex_1_mod_3
+  position: 1
+
+complex_1_mod_3_lesson_3:
+  title: Lesson 19
+  section: complex_1_mod_3
+  position: 2
+
+complex_1_mod_3_lesson_4:
+  title: Lesson 20
+  section: complex_1_mod_3
+  position: 3

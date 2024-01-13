@@ -1,0 +1,11 @@
+<div class="mt-2">
+  <div style="margin-left: <%= section.depth * 20 %>px;">
+    📚 <%= section.title %>
+  </div>
+
+  <%= render partial: "shared/nested_lesson", collection: section.lessons.sorted, as: :lesson %>
+
+  <% if section.sections.any? %>
+    <%= render partial: "shared/nested_section", collection: section.sections.sorted, as: :section %>
+  <% end %>
+</div>

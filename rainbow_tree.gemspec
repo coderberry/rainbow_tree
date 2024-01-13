@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "lib/rainbow_tree/version"
 
 Gem::Specification.new do |spec|

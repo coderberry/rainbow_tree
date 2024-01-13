@@ -3,6 +3,7 @@ PATH
   specs:
     rainbow_tree (0.1.0)
       rails (>= 7.0)
+      rainbow (>= 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -274,7 +275,9 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  debug (>= 1.0.0)
+  debug
+  language_server-protocol
+  lint_roller
   magic_frozen_string_literal
   pry-byebug
   pry-doc
@@ -283,9 +286,12 @@ DEPENDENCIES
   rake
   rbs_rails
   rspec
+  rubocop
   sprockets-rails
   sqlite3
   standard
+  standard-custom
+  standard-performance
   yard
 
 BUNDLED WITH

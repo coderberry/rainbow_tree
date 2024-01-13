@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "language_server-protocol"
   spec.add_development_dependency "lint_roller"
   spec.add_development_dependency "magic_frozen_string_literal"
+  spec.add_development_dependency "minitest-reporters"
   spec.add_development_dependency "pry-byebug"
   spec.add_development_dependency "pry-doc"
   spec.add_development_dependency "puma"

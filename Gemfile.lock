@@ -83,6 +83,7 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
+    ansi (1.5.0)
     ast (2.4.2)
     awesome_print (1.9.2)
     base64 (0.2.0)
@@ -125,6 +126,11 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.21.1)
+    minitest-reporters (1.6.1)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     mutex_m (0.2.0)
     net-imap (0.4.9.1)
       date
@@ -279,6 +285,7 @@ DEPENDENCIES
   language_server-protocol
   lint_roller
   magic_frozen_string_literal
+  minitest-reporters
   pry-byebug
   pry-doc
   puma

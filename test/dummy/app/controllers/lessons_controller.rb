@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class LessonsController < ApplicationController
   before_action :set_course, :set_section
 
@@ -18,5 +20,4 @@ class LessonsController < ApplicationController
   def set_section
     @section = @course.sections.find(params[:section_id])
   end
-
 end

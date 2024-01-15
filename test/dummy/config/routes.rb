@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-
   resources :courses, only: [:index, :show] do
     resources :sections, only: [:index, :show] do
       resources :lessons, only: [:index, :show]

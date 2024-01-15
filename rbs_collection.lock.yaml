@@ -1,6 +1,10 @@
 ---
 path: ".gem_rbs_collection"
 gems:
+- name: abbrev
+  version: '0'
+  source:
+    type: stdlib
 - name: actionmailer
   version: '7.0'
   source:
@@ -81,6 +85,14 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: binding_of_caller
+  version: '1.0'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: ec140aff951e3af39846eed4525ba5d040d294fa
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: cgi
   version: '0'
   source:
@@ -201,6 +213,10 @@ gems:
     revision: ec140aff951e3af39846eed4525ba5d040d294fa
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: pathname
+  version: '0'
+  source:
+    type: stdlib
 - name: pstore
   version: '0'
   source:
@@ -249,6 +265,10 @@ gems:
     revision: ec140aff951e3af39846eed4525ba5d040d294fa
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: rbs
+  version: 3.4.1
+  source:
+    type: rubygems
 - name: rdoc
   version: '0'
   source:

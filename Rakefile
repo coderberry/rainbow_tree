@@ -10,4 +10,4 @@ load "rails/tasks/statistics.rake"
 require "bundler/gem_tasks"
 require "standard/rake"
 
-task default: %i[test standard:fix]
+task default: %i[standard:fix test]

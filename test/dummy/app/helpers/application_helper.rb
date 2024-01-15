@@ -2,18 +2,18 @@
 
 module ApplicationHelper
   def breadcrumbs(crumbs = [])
-    render partial: "shared/breadcrumbs", locals: { crumbs: crumbs }
+    render partial: "shared/breadcrumbs", locals: {crumbs: crumbs}
   end
 
   def table(columns:, collection:, empty_message: "No records found", row_class: nil, row_link: nil)
     render partial: "shared/table",
-           locals: {
-             columns: columns,
-             collection: collection,
-             empty_message: empty_message,
-             row_class: row_class,
-             row_link: row_link
-           }
+      locals: {
+        columns: columns,
+        collection: collection,
+        empty_message: empty_message,
+        row_class: row_class,
+        row_link: row_link
+      }
   end
 
   def home_icon
